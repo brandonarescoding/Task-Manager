@@ -1,0 +1,21 @@
+# Database configuration with Sequelize
+DB_HOST=localhost       # Database host
+DB_USER=root            # Database user
+DB_PASS=password        # Database user password
+DB_NAME=mydatabase      # Database name
+DB_DIALECT=mysql        # Database dialect, e.g., mysql, postgres, sqlite
+
+# Nodemailer configuration for sending emails
+MAIL_HOST=smtp.example.com  # SMTP host (e.g., smtp.gmail.com for Gmail)
+MAIL_PORT=587               # SMTP port (587 for TLS, 465 for SSL)
+MAIL_USER=email@example.com # Email address used for sending
+MAIL_PASS=emailpassword     # Password for the email address
+
+# Redis configuration
+REDIS_HOST=localhost  # Redis host
+REDIS_PORT=6379       # Redis port
+REDIS_PASSWORD=redispassword  # Redis password (if needed)
+
+# Other useful variables
+SECRET_KEY=mysecretkey      # Secret key for signing cookies, tokens, etc.
+NODE_ENV=development        # Application environment, e.g., development, production
