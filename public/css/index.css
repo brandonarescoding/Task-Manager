@@ -1,0 +1,24 @@
+
+/* Alignement des liens de navigation à droite */
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar .navbar-nav .nav-link {
+    margin-right: 25px; /* Espace entre les liens */
+    color: #000;
+}
+
+.navbar .navbar-nav .nav-link.contact {
+    border: 1px solid #080808;
+    border-radius: 5px ;
+}
+
+.navbar .navbar-nav .nav-link.contact:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
